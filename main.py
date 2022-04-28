@@ -22,6 +22,7 @@ name_short = name_s + '.' + ' ' + last_name
 
 a = first_name + '! '
 x = len(player[0:4])
-chant = a*x
+b = a*x
 
-good_chant = chant != ' '
+chant = b[:-1] 
+good_chant = chant[-1] != ' '
